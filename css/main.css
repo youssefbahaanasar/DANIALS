@@ -335,10 +335,9 @@ main p {
     transition: all 0.5s;
 }
 
-#works .nav-link {
+#works .nav-tabs {
     position: relative;
     padding: 0;
-    margin-inline: 20px;
 }
 
 #works .nav-link::after {
@@ -379,10 +378,17 @@ main p {
     border-radius: 50%;
     background-color: #000;
     margin: 15px 2px;
-    transition: all 0.5s;
+    transition: margin-block 0.5s;
+    border: #000 1px solid;
 
 }
 
+.overlay-icons a:hover{
+    background-color: #FFF;
+}
+.overlay-icons a:hover i{
+    color: #000;
+}
 .overlay-icons a i {
     color: #fff;
 }
@@ -563,11 +569,11 @@ main p {
     font-size: 25px;
 }
 
-#contact a:hover i {
+#contact .inner:hover i {
     color: #fff;
 }
 
-#contact a:hover {
+#contact .inner:hover a {
     background-color: #000;
 }
 
